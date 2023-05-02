@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*-------------------- partie resume ----------------------*/
+.header{
+    background-color: rgb(2, 1, 61);
+    color: #fff;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+/*----------------------------- partie final projet ---------------------------------*/
+
+.bbc-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.55);
+}
+.bbc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+.bbc-navbar .nav-link:hover{
+    padding-bottom: 21px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner, .order-form{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./galerie/banniere2.jpg)
+    center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.order-form{
+    height: 500px;
+}
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.bbc-menu{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./galerie/banniere5.jpg)
+    center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .bbc-menu .non{
+        display: none;
+    }
+    .reserve{
+        margin-top: 15px;
+    }
+    .reserve:hover{
+        color: white;
+    }
+}
